@@ -1,0 +1,58 @@
+*{
+	font-family: 'Long Cang', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+.odd, .even, .final{
+	margin-left: 10px;
+	position:relative;
+	width: 100px;
+	height: 150px;
+	transition: width 3s;
+	background-color: #eeeff2;
+	border-left-style: dotted;
+	border-left-width: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+  	font-size: 40px;
+	border-left-color: #D0D0FF;
+	white-space: nowrap;
+	text-shadow: 6px 6px pink;
+}
+.odd, .even{
+
+	animation-name: move;
+  	animation-duration: 4s;
+  	animation-delay: 0s;
+}
+@keyframes move{
+	0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+.odd:hover, .even:hover, .final:hover{
+	background-color: yellow;
+	width: 200px;
+}
+.main{
+	display: inline-flex;
+	white-space: nowrap;
+}
+
+.final{
+	float: right;
+	position:absolute;
+    bottom:0;
+    right:0;
+}
+
+@font-face{
+	font-family: 'Long Cang', cursive;
+}
+
+body{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,0.7875525210084033) 0%, rgba(252,70,107,1) 100%);
+}
