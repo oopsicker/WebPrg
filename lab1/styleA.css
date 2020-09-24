@@ -1,25 +1,39 @@
-.odd, .even, .final{
-	border-top: 1px solid #687291;
-	margin: auto;
-	height: 100px;
-  	width: 100px;
-  	text-align: center;
-  	font-family: tahoma;
-  	font-size: 40px;
-}
-.odd{
-	background-color: #dfe1e7
-	
-}
-.even{
-	background-color: #eeeff2
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
-.final{
-	position: relative;
-	border: 4px solid black;
-	background-color: #687291;
-	display : flex;
-  	align-items : center;
-  	justify-content: center;
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100%;
+}
+
+.cu {
+    border-top: 1px solid #687291;
+    display: inline-block;
+    font-family: "Tahoma", sans-serif;
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+.n-1 {
+    background-color: #DFE1E7;
+}
+
+.n-2 {
+    background-color: #EEEFF2;
+}
+
+.n-3 {
+    align-items: center;
+    background-color: #687291;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
 }
