@@ -9,7 +9,7 @@ body {
     min-height: 100%;
 }
 
-.cu {
+.cube {
     background-color: #EEEFF2;
     border-left: 10px dotted #D0D0FF;
     flex-shrink: 0;
@@ -21,13 +21,13 @@ body {
     width: 90px;
 }
 
-.cu:hover {
+.cube:hover {
     background-color: yellow;
     color: goldenrod;
     cursor: pointer;
 }
 
-.n-3 {
+.style-3 {
     bottom: 0px;
     position: absolute;
     right: 0px;
